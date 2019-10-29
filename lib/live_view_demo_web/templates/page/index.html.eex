@@ -1,0 +1,6 @@
+<section class="phx-hero">
+  <h1>
+    <%= link("CodeBreaker", to: Routes.game_path(@conn, :index))  %> 
+  </h1> 
+</section>
+

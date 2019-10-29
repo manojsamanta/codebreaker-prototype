@@ -1,0 +1,9 @@
+<div class="current_guess_box" style="width: <%= @game.colors * 120 %>px;">
+
+<span class="guess-box">
+<button phx-click="advance-color" phx-value-pos="1"> + </button>
+<div class="guess_display"> <div class="bulb-top <%= Enum.at(@game.current_guess, 1 - 1) %>"> <div class="reflection"></div> </div> </div>
+<button phx-click="advance-color" phx-value-pos="1"> - </button>
+</span>
+
+</div>
